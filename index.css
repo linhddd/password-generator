@@ -1,14 +1,18 @@
 body {
     font-family: 'Inter', sans-serif;
-    width: 550px;
-    height: 550px;
     left: 62px;
     right: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /*margin: 115px 0 0 52px;*/
+}
+main {
+    width: 550px;
     background: #ECFDF5;
 
-    margin: 115px 0 0 52px;
 }
-
 h1 {
     font-weight: 800;
     font-size: 40px;
