@@ -1,17 +1,17 @@
 body {
     font-family: 'Inter', sans-serif;
-    left: 62px;
-    right: 64px;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    /*margin: 115px 0 0 52px;*/
 }
 main {
     width: 550px;
     background: #ECFDF5;
+}
 
+#content {
+    padding: 115px 52px;
 }
 h1 {
     font-weight: 800;
@@ -20,6 +20,7 @@ h1 {
     letter-spacing: 100%;
     color: #2B283A;
     margin-bottom: 10px;
+    margin-top: 0px;
 }
 
 p {
@@ -56,6 +57,7 @@ hr {
     height: 39px;
     background: #273549;
     margin-top: 35px;
+    margin-bottom: 0px;
 }
 
 #button-3 {
